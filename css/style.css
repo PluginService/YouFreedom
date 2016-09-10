@@ -1,5 +1,71 @@
-.jumbotron {
-    background: #999;
-    color: #fff;
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma|Pacifico';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+#main-text {
+    padding: 3px;
+    font-family: 'Baloo Tamma', cursive;
+}
+
+#invis {
+    background-color: #e0e0e0;
+    color: #e0e0e0;
+}
+
+#linebreak {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #888;
+    color: #888;
+}
+
+#banned {
+    text-decoration: none;
+    color: black;
+}
+
+#user {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+ul {
+    text-align:center;
+    list-style-type: none;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
