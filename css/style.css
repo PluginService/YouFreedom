@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .jumbotron {
     background: #999;
     color: #fff;
@@ -9,4 +10,17 @@
     text-align: center;
     margin-bottom: 50px;
 >>>>>>> refs/remotes/origin/aggelosqq
+=======
+.jumbotron {
+    background: #999;
+    color: #fff;
+    text-align: center;
+<<<<<<< HEAD
+=======
+}
+.page-header {
+    text-align: center;
+    margin-bottom: 50px;
+>>>>>>> refs/remotes/origin/aggelosqq
+>>>>>>> 73315255744381ac36a3bee09b28e29fe87c5541
 }
