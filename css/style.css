@@ -1,3 +1,5 @@
+body {
+}
 .jumbotron {
     background: #999;
     color: #fff;
@@ -6,4 +8,24 @@
 .page-header {
     text-align: center;
     margin-bottom: 50px;
+}
+.footer  {
+    border-top: 1px solid #222;
+    padding: 5px;
+}
+.footer p {
+    padding: 5px;
+}
+iframe {
+    margin: 5px;
+}
+.posted-by {
+    text-align: center;
+}
+.banned {
+    text-decoration: line-through;
+}
+.banned:hover {
+    text-decoration: line-through;
+    color: initial;
 }
