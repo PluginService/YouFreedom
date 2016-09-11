@@ -1,4 +1,6 @@
 $(document).ready(function() {
+   $(".associated").hide();
+
    $(".one").click(function() {
       $(".general").slideToggle("slow");
    });
@@ -10,5 +12,8 @@ $(document).ready(function() {
    });
    $(".four").click(function() {
       $(".streaming").slideToggle("slow");
+   });
+   $(".five").click(function() {
+      $(".associated").slideToggle("slow");
    });
 });
