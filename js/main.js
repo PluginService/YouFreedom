@@ -1,5 +1,8 @@
 $(document).ready(function() {
-   $(".associated").hide();
+      $(".promo").hide();
+      $(".training").hide();
+      $(".streaming").hide();
+      $(".associated").hide();
 
    $(".one").click(function() {
       $(".general").slideToggle("slow");
