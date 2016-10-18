@@ -1,0 +1,12 @@
+.channel {
+    text-align: center;
+}
+.channel-author {
+    background: #444;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+#badge {
+    font-size: 1.5em;
+}
