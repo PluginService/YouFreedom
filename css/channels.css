@@ -1,0 +1,22 @@
+.channels {
+    text-align: center;
+}
+.channel-title {
+    background: #444;
+    padding: 5px;
+    color: #ccc;
+    display: inline-block;
+    box-shadow: 0 5px 4px rgba(40,40,40,0.4);
+    transition: all 0.5s;
+    width: 25%;
+    margin: 15px auto;
+}
+.channel-title:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #0d152d;
+    box-shadow: 0 5px 4px rgba(40,40,40,0.8);
+}
+.right {
+    float: right;
+}

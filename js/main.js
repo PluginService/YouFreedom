@@ -20,3 +20,8 @@ $(document).ready(function() {
       $(".associated").slideToggle("slow");
    });
 });
+
+
+$(document).ready(function() {
+      $(".fa-chevron-right").hide();
+});
