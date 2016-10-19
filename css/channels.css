@@ -15,7 +15,8 @@
     color: #fff;
     text-decoration: none;
     background: #0d152d;
-    box-shadow: 0 5px 4px rgba(40,40,40,0.8);
+    box-shadow: 0 15px 25px #0d152d;
+    transform: translateY(-5px);
 }
 .right {
     float: right;
